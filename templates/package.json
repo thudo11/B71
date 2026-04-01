@@ -1,0 +1,16 @@
+{
+  "name": "b71-pptx-generator",
+  "version": "1.0.0",
+  "description": "Generates Startup_Profile_Template_1920x1080_CanvaReady.pptx for Block71/Program-style presentations",
+  "main": "generate.js",
+  "scripts": {
+    "generate": "node generate.js"
+  },
+  "keywords": ["pptx", "block71", "startup", "canva", "template"],
+  "author": "Block71",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}
